@@ -89,4 +89,7 @@ if !patchResult! == 0 if !signResult! == 0 (
     echo 破解失败
 )
 
+
+endlocal
+
 pause
