@@ -2,7 +2,10 @@ USign 1.0.0
 -
 
 Verified to be working with:
-    
+    **（仅支持2019.4.40f之后的版本，不包括2019.4.40f）**
+
+​     **(通过Unity Hub安装的Unity一般安装位置在C盘，执行时会遇到操作文件权限不够的情况，建议通过安装包安装)**
+
 * 2021.3.23 OSX
 * 2022.2.16 Win
 
@@ -18,7 +21,7 @@ Usage:
 
 * `patch /path/to/Unity.Licensing.EntitlementResolver.dll`
 * `sign`
-* `cp Unity_lic.ulf /path/to/license/dir`
+* `cp Unity_lic.ulf /path/to/license/dir` **（e.g. C:\ProgramData\Unity）**
 
 Block domains in `/etc/hosts`
 
